@@ -1,0 +1,1 @@
+export function layoutPointStatus(piece: {kind:string; text?:string}, points: {id:string;commanded?:string|null;hardware_commanded?:string|null}[], mode:string): {id:string|null;position:string|null};

@@ -1,0 +1,5 @@
+fastapi==0.162.0
+uvicorn==0.54.0
+pillow==13.0.0
+# TestClient for this installed Starlette/FastAPI environment:
+httpx2==2.16.0

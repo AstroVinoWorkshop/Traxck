@@ -1,0 +1,28 @@
+# Live railway state, configuration, and local backups
+/data/
+*.db
+*.db-*
+*.sqlite*
+*.log
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+*credentials*
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
