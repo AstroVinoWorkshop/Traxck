@@ -14,8 +14,6 @@ Screenshots show illustrative simulation data, not measured train positions. The
 
 **All rights reserved.** No permission to redistribute the code or bundled assets is granted by this release. Supply only photos and artwork you have rights to use; no locomotive catalogue images are included.
 
-[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=MH4576C22MQGU)
-
 ## Prerequisites and install
 
 - Python **3.11 or newer**, Node.js **18 or newer**, npm, and a supported operating system. Installed Pillow and `httpx2` require Python 3.11+. This project has no Docker/production hosting configuration.
@@ -73,3 +71,9 @@ The backend tests use temporary databases and fake sockets; they are **not** a p
 ## Persistent data and backups
 
 The source directory is **not a backup of your installation**. `data/` is intentionally excluded: back up the SQLite file (including any WAL/SHM companions, or use SQLite's online backup API), roster uploads under `data/roster-photos/`, and `data/railway-plug.json` separately, securely, and with the service stopped for a simple consistent file copy. Also back up any external database/config/token paths you set through the environment. Restore these only on your own trusted installation, with restrictive permissions; never add them to a public source export. Retain backup copies away from this release tree.
+
+## Support Traxck
+
+If Traxck is useful to you, donations are optional and appreciated.
+
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=MH4576C22MQGU)
